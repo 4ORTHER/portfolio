@@ -362,11 +362,8 @@ article .icon {
 }
 
 .color-container {
-          /* border-color: rgb(163, 163, 163); */
-          /* background: rgb(250, 250, 250); */
           border: rgb(53, 53, 53) 0.1rem solid;
           border-color: rgb(163, 163, 163);
-          /* background: linear-gradient( to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97% ); */
           background: hsl(240, 2%, 12%);
           margin-bottom: 5vh;
 }
@@ -402,7 +399,22 @@ article .icon {
           color: hsl(45, 100%, 72%);
 }
 
-.popup {
+/* READ MORE */
+.extra {
+          visibility: hidden;
+          transition: 0.5s linear;
+}
+
+label {
+          display: inline-block;
+          margin-top: 15px;
+          /* color: hsl(45, 54%, 58%); */
+          text-decoration: underline;
+          cursor: pointer;
+          font-weight: 600;
+}
+
+/* .popup {
           width: 400px;
           background: linear-gradient( to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97% );
           border-radius: 2rem;
@@ -415,14 +427,14 @@ article .icon {
           visibility: hidden;
           transition: transform 0.4s, top 0.4s;
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-}
+} */
 
-/* .open-popup {
+ /* .open-extra {
           visibility: visible;
-          top: 50%;
-          transform: translate(-50%, -50%) scale(1);
-}
+          transition: 0.5s linear;
+} */
 
+/*
 .popup h2 {
           font-size: 38px;
           font-weight: 500;

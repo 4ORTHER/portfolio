@@ -6,12 +6,12 @@ function toggleMenu() {
           icon.classList.toggle("open");
 }
 
-let popup = document.getElementById("popup");
+let extra = document.getElementById("extra");
 
-function openPopup() {
-          popup.classList.add("open-popup");
+function openExtra() {
+          extra.classList.add("open-extra");
 }
 
-function closePopup () {
-          popup.classList.remove("open-popup");
+function closeExtra () {
+          extra.classList.remove("open-extra");
 }
