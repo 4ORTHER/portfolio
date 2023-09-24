@@ -23,13 +23,15 @@ p {
 
 /* TRANSITION */
 
-a, .btn {
+a,
+.btn {
           transition: all 300ms ease;
 }
 
 /* DESKTOP NAV */
 
-nav, .nav-links {
+nav,
+.nav-links {
           display: flex;
 }
 
@@ -151,7 +153,7 @@ a:hover {
 
 section {
           padding-top: 4vh;
-          height: 96vh;
+          min-height: 100vh;
           margin: 0 10rem;
           box-sizing: border-box;
           min-height: fit-content;
@@ -191,7 +193,7 @@ section {
           font-weight: 600;
 }
 
-.section__text__p1  {
+.section__text__p1 {
           text-align: center;
 }
 
@@ -210,7 +212,7 @@ section {
           display: flex;
           justify-content: center;
           margin-top: 1rem;
-          gap: 1rem ;
+          gap: 1rem;
 }
 
 /* ICONS */
@@ -237,15 +239,17 @@ section {
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.btn-color-1, .btn-color-2 {
+.btn-color-1,
+.btn-color-2 {
           border: hsl(45, 54%, 58%) 0.1rem solid;
-          background: linear-gradient( to bottom right, hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50% );
+          background: linear-gradient(to bottom right, hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50%);
           color: hsl(45, 100%, 72%);
 }
 
-.btn-color-1:hover, .btn-color-2:hover {
+.btn-color-1:hover,
+.btn-color-2:hover {
           cursor: pointer;
-          background: linear-gradient( to right bottom, hsla(36, 100%, 69%, 0) 0%, hsl(45, 100%, 71%) 50% );
+          background: linear-gradient(to right bottom, hsla(36, 100%, 69%, 0) 0%, hsl(45, 100%, 71%) 50%);
           color: hsl(0, 0%, 7%);
 }
 
@@ -286,7 +290,7 @@ section {
 .details-container {
           padding: 1.5rem;
           flex: 1;
-          background: linear-gradient( to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97% );
+          background: linear-gradient(to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97%);
           border-radius: 2rem;
           border: rgb(53, 53, 53) 0.1rem solid;
           border-color: rgb(163, 163, 163);
@@ -306,7 +310,7 @@ section {
 
 /* SKILLS */
 
-.skill-progress-bg  {
+.skill-progress-bg {
           background: hsl(0, 0%, 22%);
           width: 100%;
           height: 8px;
@@ -314,7 +318,7 @@ section {
 }
 
 .skill-progress-fill {
-          background: linear-gradient( to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%) );
+          background: linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%));
           height: 100%;
           border-radius: inherit;
 }
@@ -335,6 +339,7 @@ section {
           justify-content: center;
           flex-direction: column;
 }
+
 .article-container {
           display: flex;
           text-align: initial;
@@ -387,7 +392,7 @@ article .icon {
 
 .experience-btn {
           cursor: pointer;
-          background: linear-gradient( to right bottom, hsla(36, 100%, 69%, 0) 0%, hsl(45, 100%, 71%) 50% );
+          background: linear-gradient(to right bottom, hsla(36, 100%, 69%, 0) 0%, hsl(45, 100%, 71%) 50%);
           color: hsl(0, 0%, 7%);
           width: 100%;
           margin-top: 10px;
@@ -399,7 +404,7 @@ article .icon {
 
 .experience-btn:hover {
           border: hsl(45, 54%, 58%) 0.1rem solid;
-          background: linear-gradient( to bottom right, hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50% );
+          background: linear-gradient(to bottom right, hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50%);
           color: hsl(45, 100%, 72%);
 }
 
@@ -433,7 +438,7 @@ label {
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 } */
 
- /* .open-extra {
+/* .open-extra {
           visibility: visible;
           transition: 0.5s linear;
 } */
@@ -468,7 +473,7 @@ label {
           justify-content: center;
           border-radius: 2rem;
           border: rgb(53, 53, 53) 0.1rem solid;
-          border-color: rgb(163,163, 163);
+          border-color: rgb(163, 163, 163);
           background: (250, 250, 250);
           margin: 2rem auto;
           padding: 0.5rem;
@@ -483,7 +488,8 @@ label {
 }
 
 .contact-info-container p {
-          font-size: larger;;
+          font-size: larger;
+          ;
 }
 
 .contact-icon {
