@@ -361,6 +361,10 @@ article .icon {
           position: relative;
 }
 
+#experience2 {
+          position: relative;
+}
+
 .color-container {
           border: rgb(53, 53, 53) 0.1rem solid;
           border-color: rgb(163, 163, 163);
