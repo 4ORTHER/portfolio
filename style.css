@@ -232,7 +232,7 @@ section {
 
 .btn {
   font-weight: 600;
-  transition: all 0.3s ease-in-out;
+  transition: all .4s ease-in-out;
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
@@ -430,21 +430,6 @@ article .icon {
   color: hsl(45, 100%, 72%);
 }
 
-/* READ MORE */
-.extra {
-  visibility: hidden;
-  transition: 0.5s linear;
-}
-
-label {
-  display: inline-block;
-  margin-top: 15px;
-  /* color: hsl(45, 54%, 58%); */
-  text-decoration: underline;
-  cursor: pointer;
-  font-weight: 600;
-}
-
 /* .popup {
           width: 400px;
           background: linear-gradient( to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97% );
@@ -480,6 +465,11 @@ label {
           font-size: 18px;
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 } */
+
+/* CERTIFICATE */
+#certificate {
+          position: relative;
+}
 
 /* CONTACT */
 
