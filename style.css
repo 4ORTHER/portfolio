@@ -232,7 +232,7 @@ section {
 
 .btn {
   font-weight: 600;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
@@ -468,7 +468,7 @@ article .icon {
 
 /* CERTIFICATE */
 #certificate {
-          position: relative;
+  position: relative;
 }
 
 /* CONTACT */
