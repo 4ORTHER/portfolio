@@ -2,592 +2,541 @@
 <html lang="en">
 
 <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Portfolio</title>
-          <link rel="icon" type="image/x-icon" href="./assets/4ORTHER-icon.png">
-          <link rel="stylesheet" href="style.css">
-          <link rel="stylesheet" href="mediaqueries.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="./assets/4ORTHER-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
 </head>
 
 <body>
-          <nav id="desktop-nav">
-                    <div class="logo">Poorawachara Anusit</div>
-                    <div>
-                              <ul class="nav-links">
-                                        <li><a href="#about">About</a></li>
-                                        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                                        <li><a href="#experience">Experience</a></li>
-                                        <li><a href="#certificate">Certificate</a></li>
-                                        <li><a href="#contact">Contact</a></li>
-                              </ul>
-                    </div>
-          </nav>
-          <nav id="hamburger-nav">
-                    <div class="logo">Poorawachara Anusit</div>
-                    <div class="hamburger-menu">
-                              <div class="hamburger-icon" onclick="toggleMenu()">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                              </div>
-                              <div class="menu-links">
-                                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                                        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                                        <li><a href="#certificate" onclick="toggleMenu()">Certificate</a></li>
-                                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-                              </div>
-                    </div>
-          </nav>
-          <section id="profile">
-                    <div class="section__pic-container">
-                              <img src="./assets/4ORTHER-pic.jpg" alt="Poorawachara profile picture"
-                                        class="profile-pic">
-                    </div>
-                    <div class="section__text">
-                              <p class="section__text__p1">Hello, I'm</p>
-                              <h1 class="title">Poorawachara Anusit</h1>
-                              <p class="section__text__p2">Software Engineer</p>
-                              <div class="btn-container">
-                                        <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
-                                                  Download Resume
-                                        </button>
-                                        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-                                                  Contact Info
-                                        </button>
-                              </div>
-                              <div id="socials-container">
-                                        <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon"
-                                                  onclick="window.open('https://www.linkedin.com/in/4orther-29669a220/')">
-                                        <img src="./assets/github.png" alt="My Github profile" class="icon"
-                                                  onclick="window.open('https://github.com/4ORTHER')">
-                                        <img src="./assets/facebook.png" alt="My Facebook profile" class="icon"
-                                                  onclick="window.open('https://www.facebook.com/Hi.ImPurawatX/')">
-                                        <img src="./assets/insta.png" alt="My Instagram profile" class="icon"
-                                                  onclick="window.open('https://www.instagram.com/4orther/')">
-                              </div>
-                    </div>
-          </section>
-          <section id="about">
-                    <p class="section__text__p1">Get To Know More</p>
-                    <h1 class="title">About Me</h1>
-                    <div class="section-container">
-                              <div class="section__pic-container">
-                                        <img src="./assets/4ORTHER-About-Pic.png" alt="Profile picture"
-                                                  class="about-pic">
-                              </div>
-                              <div class="about-details-container">
-                                        <div class="about-containers">
-                                                  <div class="details-container">
-                                                            <!-- <img src="./assets/education.png" alt="Education icon"
+  <nav id="desktop-nav">
+    <div class="logo">Poorawachara Anusit</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certificate">Certificate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Poorawachara Anusit</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#certificate" onclick="toggleMenu()">Certificate</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/4ORTHER-pic.jpg" alt="Poorawachara profile picture" class="profile-pic">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Poorawachara Anusit</h1>
+      <p class="section__text__p2">Software Engineer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon"
+          onclick="window.open('https://www.linkedin.com/in/4orther-29669a220/')">
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="window.open('https://github.com/4ORTHER')">
+        <img src="./assets/facebook.png" alt="My Facebook profile" class="icon"
+          onclick="window.open('https://www.facebook.com/Hi.ImPurawatX/')">
+        <img src="./assets/insta.png" alt="My Instagram profile" class="icon"
+          onclick="window.open('https://www.instagram.com/4orther/')">
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/4ORTHER-About-Pic.png" alt="Profile picture" class="about-pic">
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <!-- <img src="./assets/education.png" alt="Education icon"
                                                                       class="icon"> -->
-                                                            <h3>"Some people dream of success, while other people get up
-                                                                      every morning and make it happen."</h3>
-                                                            <p>
-                                                                      Hello there! My name is Poorawachara Anusit. You
-                                                                      can call me Pooh or Sean. I'm 23 years old. I'm
-                                                                      currently studying in the 4th year of study in the
-                                                                      Faculty of Innovation Technology and Innovation,
-                                                                      Department of Computer Science, Bangkok
-                                                                      University. I am interested in the field of
-                                                                      Software Engineer. I used to compete in software
-                                                                      development in a couple of programs such as
-                                                                      WorldSkills Thailand, I was the winner of the
-                                                                      competition and that made me fall in love with
-                                                                      software development. I found that I have a
-                                                                      passion
-                                                                      for being a software engineer.
-                                                                      I had an opportunity to compete in WorldSkills
-                                                                      Asia and I met people from different countries
-                                                                      and they are so talented. That made me realize
-                                                                      that there is still so much to learn from this
-                                                                      career path.
-                                                            </p>
-                                                            <h3>Education</h3>
-                                                            <p>
-                                                                      2021-Present Bangkok University Bachelor's Degree
-                                                                      in Computer Science GPA 3.46
-                                                                      <br>
-                                                                      2019-2021 Eastern Technological College Advanced
-                                                                      Vocational Certificate, InfomationTechnology major
-                                                                      GPA 3.92
-                                                                      <br>
-                                                                      2016-2019 Eastern Technological College Vocational
-                                                                      Certificate, Business Computer major GPA 3.84
-                                                            </p>
-                                                  </div>
-                                        </div>
-                              </div>
-                    </div>
-                    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-                              onclick="location.href='./#skills'">
-          </section>
-          <section id="skills">
-                    <p class="section__text__p1">Explore My</p>
-                    <h1 class="title">Skills</h1>
-                    <div class="skill-details-container">
-                              <div class="about-containers">
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">Hard Skills</h2>
-                                                  <div class="article-container">
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>C#</h4>
-                                                                                <p>Experienced</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Node.js</h4>
-                                                                                <p>Experienced</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Java Script</h4>
-                                                                                <p>Experienced</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>OOP</h4>
-                                                                                <p>Experienced</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Algorithm</h4>
-                                                                                <p>Experienced</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>SQL</h4>
-                                                                                <p>Experienced</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Git</h4>
-                                                                                <p>Experienced</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>PYTHON</h4>
-                                                                                <p>intermediate</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Java</h4>
-                                                                                <p>intermediate</p>
-                                                                      </div>
-                                                            </article>
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">Soft Skills</h2>
-                                                  <div class="article-container">
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Communication</h4>
-                                                                                <p>Excellent</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Adaptability</h4>
-                                                                                <p>Excellent</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Critical thinking</h4>
-                                                                                <p>Good</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Responsibility</h4>
-                                                                                <p>Excellent</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Emotional Intelligence</h4>
-                                                                                <p>Good</p>
-                                                                      </div>
-                                                            </article>
-                                                            <article>
-                                                                      <img src="./assets/checkmark.png" alt=""
-                                                                                class="icon">
-                                                                      <div>
-                                                                                <h4>Creativity</h4>
-                                                                                <p>Good</p>
-                                                                      </div>
-                                                            </article>
-                                                  </div>
-                                        </div>
-                              </div>
-                    </div>
-                    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-                              onclick="location.href='./#experience'">
-          </section>
-          <section id="experience">
-                    <p class="section__text__p1">Browse My Experience</p>
-                    <h1 class="title">Experience</h1>
-                    <div class="skill-details-container">
-                              <div class="about-containers experience-container">
-                                        <div class="details-container color-container">
-                                                  <div class="article-container">
-                                                            <img src="./assets/4ORTHER-WorldSkillsAsia1.png"
-                                                                      alt="WorldSkills Asia" class="experience-img">
-                                                  </div>
-                                                  <h2 class="skill-sub-title experience-title">WorldSkills Asia 2021
-                                                            Online Friendly Games (Top 12th from 16 countries)</h2>
-                                                  <p>
-                                                            The Worldskills Asia competition from 16 countries. Requires
-                                                            knowledge of
-                                                            systems analysis, system design, database, mobile
-                                                            development, APIs, and desktop development to finish tasks
-                                                            according to requirements for logistics center networks.
+            <h3>"Some people dream of success, while other people get up
+              every morning and make it happen."</h3>
+            <p>
+              Hello there! My name is Poorawachara Anusit. You
+              can call me Pooh or Sean. I'm 23 years old. I'm
+              currently studying in the 4th year of study in the
+              Faculty of Innovation Technology and Innovation,
+              Department of Computer Science, Bangkok
+              University. I am interested in the field of
+              Software Engineer. I used to compete in software
+              development in a couple of programs such as
+              WorldSkills Thailand, I was the winner of the
+              competition and that made me fall in love with
+              software development. I found that I have a
+              passion
+              for being a software engineer.
+              I had an opportunity to compete in WorldSkills
+              Asia and I met people from different countries
+              and they are so talented. That made me realize
+              that there is still so much to learn from this
+              career path.
+            </p>
+            <h3>Education</h3>
+            <p>
+              2021-Present Bangkok University Bachelor's Degree
+              in Computer Science GPA 3.46
+              <br>
+              2019-2021 Eastern Technological College Advanced
+              Vocational Certificate, InfomationTechnology major
+              GPA 3.92
+              <br>
+              2016-2019 Eastern Technological College Vocational
+              Certificate, Business Computer major GPA 3.84
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'">
+  </section>
+  <section id="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skill-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skill-sub-title">Hard Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>C#</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Node.js</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Java Script</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>OOP</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Algorithm</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>SQL</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Git</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>PYTHON</h4>
+                <p>intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Java</h4>
+                <p>intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">Soft Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Communication</h4>
+                <p>Excellent</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Adaptability</h4>
+                <p>Excellent</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Critical thinking</h4>
+                <p>Good</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Responsibility</h4>
+                <p>Excellent</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Emotional Intelligence</h4>
+                <p>Good</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="" class="icon">
+              <div>
+                <h4>Creativity</h4>
+                <p>Good</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Browse My Experience</p>
+    <h1 class="title">Experience</h1>
+    <div class="skill-details-container">
+      <div class="about-containers experience-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/4ORTHER-WorldSkillsAsia1.png" alt="WorldSkills Asia" class="experience-img">
+          </div>
+          <h2 class="skill-sub-title experience-title">WorldSkills Asia 2021
+            Online Friendly Games (Top 12th from 16 countries)</h2>
+          <p>
+            The Worldskills Asia competition from 16 countries. Requires
+            knowledge of
+            systems analysis, system design, database, mobile
+            development, APIs, and desktop development to finish tasks
+            according to requirements for logistics center networks.
 
-                                                  </p>
-                                                  <div class="btn-container">
-                                                            <button class="btn btn-color-2 experience-btn"
-                                                                      onclick="window.open('https://web.facebook.com/worldskillsthailand/posts/pfbid0VJYHgKMBw8HYLsGaEDFiTHZfpoWLwLzKvyY87t65zepF72AkxgrKRyhMLV8t5sfAl')">
-                                                                      View Info
-                                                            </button>
-                                                  </div>
-                                        </div>
-                                        <div class="details-container color-container">
-                                                  <div class="article-container">
-                                                            <img src="./assets/4ORTHER-NSC-23.png"
-                                                                      alt="National Software Contest"
-                                                                      class="experience-img">
-                                                  </div>
-                                                  <h2 class="skill-sub-title experience-title">National Software Contest
-                                                            (NSC) 2021</h2>
-                                                  <p>
-                                                            Join the competition National Software Contest
-                                                            By taking on the role of the group's leader in
-                                                            project conception and development. Take on
-                                                            the responsibility of designing the program's working
-                                                            system, Responsible for presenting.
-                                                  </p>
-                                                  <div class="btn-container">
-                                                            <button class="btn btn-color-2 experience-btn"
-                                                                      onclick="window.open('https://www.facebook.com/ComputerEtech/posts/pfbid04p4bFL1wjN6kUdYA22DR5TW6gyej83JpRthpeKLfrqT8cgSDsqFDYfn3W9ntj1Dul')">
-                                                                      View Info
-                                                            </button>
-                                                  </div>
-                                        </div>
-                                        <div class="details-container color-container">
-                                                  <div class="article-container">
-                                                            <img src="./assets/4ORTHER-WolrdSkillsThailand.png"
-                                                                      alt="WorldSkills Thailand 2020"
-                                                                      class="experience-img">
-                                                  </div>
-                                                  <h2 class="skill-sub-title experience-title">WorldSkillsThailand
-                                                            National Degree 2020 (1st Place)</h2>
-                                                  <p>
-                                                            I won first place in the WorldSkills Thailand 28th
-                                                            competition, national degree. The tasks of
-                                                            the competition is divided into several modules.
-                                                            requiring an understanding of the database
-                                                            management, algorithms by considering
-                                                            efficient of the program using C# to develop.
-                                                  </p>
-                                                  <div class="btn-container">
-                                                            <button class="btn btn-color-2 experience-btn"
-                                                                      onclick="window.open('https://worldskillsthai.com/about')">
-                                                                      View Info
-                                                            </button>
-                                                  </div>
-                                        </div>
-                              </div>
-                    </div>
-                    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-                              onclick="location.href='./#experience2'">
-          </section>
-          <section id="experience2">
-                    <div class="skill-details-container">
-                              <div class="about-containers experience-container">
-                                        <div class="details-container color-container">
-                                                  <div class="article-container">
-                                                            <img src="./assets/Prospec-asubuilt.PNG"
-                                                                      alt="WorldSkills Thailand 2020"
-                                                                      class="experience-img">
-                                                  </div>
-                                                  <h2 class="skill-sub-title experience-title">
-                                                            Project Manager at Prospec Appraisal 2020
-                                                  </h2>
-                                                  <p>
-                                                            Be a Project Manager and Back-end Developer in
-                                                            the ASUBuilt project. Responsible for coordinating
-                                                            with customers and supervising projects. Do duty
-                                                            in designing and analyzing systems, designing
-                                                            APIs developing with Node.js, Database system.
+          </p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 experience-btn"
+              onclick="window.open('https://web.facebook.com/worldskillsthailand/posts/pfbid0VJYHgKMBw8HYLsGaEDFiTHZfpoWLwLzKvyY87t65zepF72AkxgrKRyhMLV8t5sfAl')">
+              View Info
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/4ORTHER-NSC-23.png" alt="National Software Contest" class="experience-img">
+          </div>
+          <h2 class="skill-sub-title experience-title">National Software Contest
+            (NSC) 2021</h2>
+          <p>
+            Join the competition National Software Contest
+            By taking on the role of the group's leader in
+            project conception and development. Take on
+            the responsibility of designing the program's working
+            system, Responsible for presenting.
+          </p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 experience-btn"
+              onclick="window.open('https://www.facebook.com/ComputerEtech/posts/pfbid04p4bFL1wjN6kUdYA22DR5TW6gyej83JpRthpeKLfrqT8cgSDsqFDYfn3W9ntj1Dul')">
+              View Info
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/4ORTHER-WolrdSkillsThailand.png" alt="WorldSkills Thailand 2020" class="experience-img">
+          </div>
+          <h2 class="skill-sub-title experience-title">WorldSkillsThailand
+            National Degree 2020 (1st Place)</h2>
+          <p>
+            I won first place in the WorldSkills Thailand 28th
+            competition, national degree. The tasks of
+            the competition is divided into several modules.
+            requiring an understanding of the database
+            management, algorithms by considering
+            efficient of the program using C# to develop.
+          </p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 experience-btn" onclick="window.open('https://worldskillsthai.com/about')">
+              View Info
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience2'">
+  </section>
+  <section id="experience2">
+    <div class="skill-details-container">
+      <div class="about-containers experience-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Prospec-asubuilt.PNG" alt="WorldSkills Thailand 2020" class="experience-img">
+          </div>
+          <h2 class="skill-sub-title experience-title">
+            Project Manager at Prospec Appraisal 2020
+          </h2>
+          <p>
+            Be a Project Manager and Back-end Developer in
+            the ASUBuilt project. Responsible for coordinating
+            with customers and supervising projects. Do duty
+            in designing and analyzing systems, designing
+            APIs developing with Node.js, Database system.
 
 
-                                                  </p>
-                                                  <div class="btn-container">
-                                                            <button class="btn btn-color-2 experience-btn"
-                                                                      onclick="window.open('https://worldskillsthai.com/about')">
-                                                                      View Info
-                                                            </button>
-                                                  </div>
-                                        </div>
-                                        <div class="details-container color-container">
-                                                  <div class="article-container">
-                                                            <img src="./assets/4ORTHER-WolrdSkillsThailand2.png"
-                                                                      alt="WorldSkills Thailand 2019"
-                                                                      class="experience-img">
-                                                  </div>
-                                                  <h2 class="skill-sub-title experience-title">WorldSkillsThailand
-                                                            Regional Degree 2019 (1st Place)</h2>
-                                                  <p>
-                                                            I won first place in the WorldSkills Thailand 28th
-                                                            competition, regional degree. It is a software
-                                                            development competition for businesses using
-                                                            C# as the development language and
-                                                            SQL Management as the database.
-                                                  </p>
-                                                  <div class="btn-container">
-                                                            <button class="btn btn-color-2 experience-btn"
-                                                                      onclick="window.open('https://worldskillsthai.com/about')">
-                                                                      View Info
-                                                            </button>
-                                                  </div>
-                                        </div>
-                                        <div class="details-container color-container">
-                                                  <div class="article-container">
-                                                            <img src="./assets/NECTEC loT Camp 2019.png"
-                                                                      alt="National Software Contest"
-                                                                      class="experience-img">
-                                                  </div>
-                                                  <h2 class="skill-sub-title experience-title">NECTEC loT Camp 2019</h2>
-                                                  <p>
-                                                            Attended NECTEC Internet of Things Technology Camp 2019
-                                                            at the Faculty of Information Science Burapha University
-                                                            Chonburi Province to learn about IoT devices, do workshops,
-                                                            and create mini-projects to present to the committee.
-                                                  </p>
-                                                  <div class="btn-container">
-                                                            <button class="btn btn-color-2 experience-btn"
-                                                                      onclick="window.open('https://www.facebook.com/groups/nectecembeddedandiot/posts/1183122461857562/')">
-                                                                      View Info
-                                                            </button>
-                                                  </div>
-                                        </div>
-                              </div>
-                    </div>
-                    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-                              onclick="location.href='./#certificate'">
-          </section>
-          <section id="certificate">
-                    <p class="section__text__p1">Let's see my</p>
-                    <h1 class="title">Certificate</h1>
-                    <div class="skill-details-container">
-                              <div class="about-containers">
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            Oracle Certified Associate
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2022-oracle-certified.PNG"
-                                                                      alt="Oracle Certified Associate"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            Student Council Member (2021)
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/student-council.jpg"
-                                                                      alt="Student Council Member"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            WorldSkillsThailand National Degree 2020
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2020-worldskills-thai-national.jpg"
-                                                                      alt="WorldSkills Thailand 2020"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                              </div>
-                              <div class="about-containers">
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            Honorable Mention in Program design and development skills 2020
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2020-honorable-mention.jpg"
-                                                                      alt="WorldSkills Thailand 2020"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            WorldSkillsThailand Regional Degree 2019
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2019-worldskills-thai-raginal.jpg"
-                                                                      alt="WorldSkills Thailand 2020"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            Completed a Training Course 2019
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2019-training-course.jpg"
-                                                                      alt="WorldSkills Thailand 2020"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                              </div>
-                              <div class="about-containers">
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            NECTEC loT Camp 2019
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2019-nectec-iot-camp.jpg"
-                                                                      alt="WorldSkills Thailand 2020"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            Passed the National Skills Standards Assessment 2019
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2019-national-skill-standard.jpg"
-                                                                      alt="WorldSkills Thailand 2020"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            Participation with MOS Olympic Thailand Competition 2019
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2019-mos-join.jpg"
-                                                                      alt="Join MOS"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                              </div>
-                              <div class="about-containers">
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            Microsoft Office Specialist Certified 2019
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2019-mos-cer.jpg"
-                                                                      alt="Microsoft Office Specialist Certified"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            English Speech Contest 2018
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2018-eng-speech-contest.jpg"
-                                                                      alt="English Speech Contest"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                                        <div class="details-container">
-                                                  <h2 class="skill-sub-title">
-                                                            Chainese - Thai Students Exchange Program 2018
-                                                  </h2>
-                                                  <div class="article-container">
-                                                            <img src="./assets/cerificates/2018-chinese-thai-exchange.jpg"
-                                                                      alt="Chainese Thai Exchange"
-                                                                      class="experience-img">
-                                                  </div>
-                                        </div>
-                              </div>
-                    </div>
+          </p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 experience-btn" onclick="window.open('https://worldskillsthai.com/about')">
+              View Info
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/4ORTHER-WolrdSkillsThailand2.png" alt="WorldSkills Thailand 2019" class="experience-img">
+          </div>
+          <h2 class="skill-sub-title experience-title">WorldSkillsThailand
+            Regional Degree 2019 (1st Place)</h2>
+          <p>
+            I won first place in the WorldSkills Thailand 28th
+            competition, regional degree. It is a software
+            development competition for businesses using
+            C# as the development language and
+            SQL Management as the database.
+          </p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 experience-btn" onclick="window.open('https://worldskillsthai.com/about')">
+              View Info
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/NECTEC loT Camp 2019.png" alt="National Software Contest" class="experience-img">
+          </div>
+          <h2 class="skill-sub-title experience-title">NECTEC loT Camp 2019</h2>
+          <p>
+            Attended NECTEC Internet of Things Technology Camp 2019
+            at the Faculty of Information Science Burapha University
+            Chonburi Province to learn about IoT devices, do workshops,
+            and create mini-projects to present to the committee.
+          </p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 experience-btn"
+              onclick="window.open('https://www.facebook.com/groups/nectecembeddedandiot/posts/1183122461857562/')">
+              View Info
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#certificate'">
+  </section>
+  <section id="certificate">
+    <p class="section__text__p1">Let's see my</p>
+    <h1 class="title">Certificate</h1>
+    <div class="skill-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            Oracle Certified Associate
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2022-oracle-certified.PNG" alt="Oracle Certified Associate"
+              class="experience-img">
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            Student Council Member (2021)
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/student-council.jpg" alt="Student Council Member" class="experience-img">
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            WorldSkillsThailand National Degree 2020
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2020-worldskills-thai-national.jpg" alt="WorldSkills Thailand 2020"
+              class="experience-img">
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            Honorable Mention in Program design and development skills 2020
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2020-honorable-mention.jpg" alt="WorldSkills Thailand 2020"
+              class="experience-img">
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            WorldSkillsThailand Regional Degree 2019
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2019-worldskills-thai-raginal.jpg" alt="WorldSkills Thailand 2020"
+              class="experience-img">
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            Completed a Training Course 2019
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2019-training-course.jpg" alt="WorldSkills Thailand 2020"
+              class="experience-img">
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            NECTEC loT Camp 2019
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2019-nectec-iot-camp.jpg" alt="WorldSkills Thailand 2020"
+              class="experience-img">
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            Passed the National Skills Standards Assessment 2019
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2019-national-skill-standard.jpg" alt="WorldSkills Thailand 2020"
+              class="experience-img">
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            Participation with MOS Olympic Thailand Competition 2019
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2019-mos-join.jpg" alt="Join MOS" class="experience-img">
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            Microsoft Office Specialist Certified 2019
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2019-mos-cer.jpg" alt="Microsoft Office Specialist Certified"
+              class="experience-img">
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            English Speech Contest 2018
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2018-eng-speech-contest.jpg" alt="English Speech Contest"
+              class="experience-img">
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skill-sub-title">
+            Chainese - Thai Students Exchange Program 2018
+          </h2>
+          <div class="article-container">
+            <img src="./assets/cerificates/2018-chinese-thai-exchange.jpg" alt="Chainese Thai Exchange"
+              class="experience-img">
+          </div>
+        </div>
+      </div>
+    </div>
 
-                    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-                              onclick="location.href='./#contact'">
-          </section>
-          <section id="contact">
-                    <p class="section__text__p1">Get in Touch</p>
-                    <h1 class="title">Contact Me</h1>
-                    <div class="contact-info-upper-container">
-                              <div class="contact-info-container">
-                                        <img src="./assets/email.png" alt="Email icon"
-                                                  class="icon contact-icon email-icon">
-                                        <p><a href="mailto:poorawach.anus@bumail.net">poorawach.anus@bumail.net</a></p>
-                              </div>
-                              <div class="contact-info-container">
-                                        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
-                                        <p><a onclick="window.open('https://www.linkedin.com/in/4orther-29669a220/')">LinkedIn</a>
-                                        </p>
-                              </div>
-                              <div class="contact-info-container">
-                                        <img src="./assets/phone.png" alt="LinkedIn icon" class="icon contact-icon">
-                                        <p><a>0949800111</a>
-                                        </p>
-                              </div>
-                    </div>
-          </section>
-          <footer>
-                    <nav>
-                              <div class="nav-links-container">
-                                        <ul class="nav-links">
-                                                  <li><a href="#about">About</a></li>
-                                                  <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                                                  <li><a href="#experience">Experience</a></li>
-                                                  <li><a href="#certificate">Certificate</a></li>
-                                                  <li><a href="#contact">Contact</a></li>
-                                        </ul>
-                              </div>
-                    </nav>
-                    <p>Copyright &#169; 2023 Poorawachara Anusit. All Rights Reserved</p>
-          </footer>
-          <script src="script.js"></script>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+        <p><a href="mailto:poorawach.anus@bumail.net">poorawach.anus@bumail.net</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+        <p><a onclick="window.open('https://www.linkedin.com/in/poorawachara-anusit-29669a220/')">LinkedIn</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/phone.png" alt="LinkedIn icon" class="icon contact-icon">
+        <p><a>0949800111</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Poorawachara Anusit. All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
